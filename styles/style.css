@@ -310,3 +310,26 @@ img{
 
 
 /* why choose us section styling ends here */
+
+
+/* deals and discount section styling starts here */
+.deals_discoun{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.deals_discoun .back_1{
+    background-image: url('../Images/back_1.png');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.back_1 .card_1{
+    
+}
+
+
+
+/* deals and discount section styling ends here */
