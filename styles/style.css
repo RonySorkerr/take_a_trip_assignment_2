@@ -1,0 +1,78 @@
+/* fonts are using */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Mulish', sans-serif; */
+
+:root{
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --pf-weight: 900;
+    --sf-weight: 700;
+}
+
+.btn-primary{
+    background-color: #FF5400;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+/* header styling section starts here */
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo .name{
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.name span{
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.links .clr{
+    color: var(--primary-color);
+}
+
+.links li{
+    margin-left: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: var(--secondary-font-weight);
+}
+
+
+
+.bars{
+    display: none;
+}
+
