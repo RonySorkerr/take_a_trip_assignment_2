@@ -30,6 +30,10 @@
     text-align: center;
 }
 
+.service_title{
+    margin: 15px 0;
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -240,3 +244,69 @@ select{
 }
 
 /* choose your destination section ends here */
+
+
+/* why choose us section styling starts here */
+.why_us{
+    margin-top: 50px;
+}
+
+.why_us p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hotels{
+    background-color: #fbb46321;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    border: 1px solid wheat;
+}
+
+.service{
+    background-color: #29cdf627;
+    border: 1px solid #29CEF6;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+}
+
+.hotels img{
+    width: 100px;
+
+    border-radius: 5px;
+}
+
+.service img{
+    width: 140px;
+    border-radius: 5px;
+}
+
+.price_gurantee{
+    background-color: #e944441f;
+    border: 1px solid #E94444;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.price_gurantee
+img{
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+/* why choose us section styling ends here */
