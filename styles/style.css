@@ -25,6 +25,11 @@
     font-weight: var(--pf-weight);
 }
 
+.main_title{
+    font-size: var(--pfsize);
+    text-align: center;
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -174,7 +179,6 @@ select{
 }
 
 
-
 .contets button{
     padding: 10px 20px;
     margin: 20px 0px;
@@ -185,11 +189,6 @@ select{
 /* choose your destination section starts here */
 .destination{
     margin-top: 50px;
-    text-align: center;
-}
-
-.destination h1{
-    font-size: var(--pfsize);
     text-align: center;
 }
 
