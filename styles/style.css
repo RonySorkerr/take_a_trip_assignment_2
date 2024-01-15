@@ -8,7 +8,7 @@
     --secondary-color: #131318;
     --pf-weight: 900;
     --sf-weight: 700;
-    --pfsize: 55px;
+    --pfsize: 45px;
 }
 
 .btn-primary{
@@ -171,6 +171,7 @@ select{
 .popular{
     display: flex;
     justify-content: space-between;
+    margin: 80px 0;
 }
 
 .contets{
@@ -353,10 +354,12 @@ img{
     align-items: center;
     color: rgb(0, 0, 0);
     font-weight: var(--pf-weight);
-    background-color: rgba(255, 255, 255, 0.836);
+    background-color: rgba(255, 255, 255, 0.582);
     width: 40%;
+    height: 500px;
     padding: 50px;
     border-radius: 10px;
+    float: right;
 }
 
 .back_2{
@@ -366,8 +369,10 @@ img{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    position: relative;
+}
 
+.back_2 .card_1{
+    float: left;
 }
 
 .back_3{
@@ -396,6 +401,10 @@ img{
 
  .hedear{
     display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 30px
+    ;
 } 
 
 /* deals and discount section styling ends here */
@@ -411,6 +420,7 @@ img{
 .perfect_contex{
     width: 40%;
     height: 420px;
+    overflow-y: auto;
 }
 
 .perfect_contex h1{
@@ -454,7 +464,7 @@ hr{
 }
 
 .newsletter_contex{
-    width: 40%; 
+    width: 45%; 
     height: 420px;
     padding: 25px;
     border: 1px solid #FF5400;
@@ -469,7 +479,6 @@ hr{
 .newsletter_contex p{
     margin: 30px 0;
 }
-
 
 .img{
     width: 50%;
@@ -506,8 +515,8 @@ hr{
     margin: 30px 0;
     width: 100%;
     border: 0;
-    background-color: rgb(216, 216, 216);
-    padding: 10px 5px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 10px;
     border-radius: 10px;
 }
 
@@ -523,7 +532,7 @@ hr{
 footer{
     background-color: rgb(240, 240, 240);
     padding: 50px;
-    margin: 80px 0;
+    margin: 80px 0 0 0;
     text-align: center;
 }
 
