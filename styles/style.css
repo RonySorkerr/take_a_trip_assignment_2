@@ -18,6 +18,7 @@
     padding: 20px 20px;
     border: 0;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .clr{
@@ -397,6 +398,7 @@ img{
 .perfect_contex button{
     padding: 10px 30px;
     margin-top: 20px;
+    cursor: pointer;
 }
 /* a simple perfect place to get lost section ends here */
 
@@ -481,3 +483,31 @@ hr{
     cursor: pointer;
 }
 /* newsletter section ends here  */
+
+/* footer section styling starts here */
+footer{
+    margin: 80px 0;
+    text-align: center;
+}
+
+.foot{
+    justify-content: center;
+}
+
+footer p{
+    margin: 50px 0;
+}
+
+.linked_icons{
+    margin-bottom: 50px;
+}
+
+.linked_icons i{
+    margin: 0 20px;
+}
+
+.rights{
+    margin-top: 40px;
+}
+
+/* footer section styling ends here */
