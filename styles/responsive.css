@@ -1,0 +1,145 @@
+@media screen and (max-width:600px) {
+    header{
+        width: 90%;
+        margin: auto;
+    }
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    .logo .name{
+        font-size: 15px;
+    }
+    .bars{
+        display: block;
+    }
+    .links ul{
+        display: none;
+    }   
+
+    .banner{
+        height: 700px;
+    }
+    .banner_contents h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .inputs{
+        width: 80%;
+        margin: auto;        
+    }
+
+    .inputs input{
+        width: 90%;
+        margin:10px auto;
+    }
+
+    select{
+        margin: 10px 0px;
+        width: 90%;
+    }
+
+    .inputs button{
+        width: 90%;
+        margin: auto;
+    }
+
+    .popular{
+        flex-direction: column;
+    }
+
+    .contets{
+        width: 100%;
+        height: auto;
+    }
+    .contets h1{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .mountain img{
+        height: auto;
+    }
+    .destination h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .first_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second_row img{
+        height: auto;
+    }
+    .third_row{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .why_us h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .price_gurantee{
+        width: 100%;
+    }
+    .d_head h1{
+        font-size: 20px;
+    }
+    .card_1{
+        display: none;
+    }
+    .perfect_place{
+        flex-direction: column;
+    }
+    .perfect_contex h1{
+        font-size: 20px;
+    }
+    .perfect_contex{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .video img{
+        height: auto;
+    }
+    #team{
+        font-size: 20px;
+    }
+    .member_images{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+    .pack{
+        font-size: 20px;
+    }
+    .newsletterr{
+        flex-direction: column;
+    }
+    .newsletter_contex{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .save h2{
+        font-size: 15px;
+    }
+    .save h1{
+        font-size: 20px;
+    }
+    footer .name h1{
+        font-size: 20px;
+    }
+
+    .linked_icons i{
+        margin: 0 6px;
+    }
+    
+
+
+}
