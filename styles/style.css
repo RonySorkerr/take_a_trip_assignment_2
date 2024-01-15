@@ -314,22 +314,57 @@ img{
 
 /* deals and discount section styling starts here */
 .deals_discoun{
-    margin: 30px 0;
+    margin: 50px 0;
     text-align: center;
+    object-fit: cover;
+}
+
+.d_head p{
+    margin-top: 20px;
 }
 
 .deals_discoun .back_1{
     background-image: url('../Images/back_1.png');
     height: 500px;
+    margin-top: 40px;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
 .back_1 .card_1{
-    
 }
 
+.back_2{
+    background-image: url('../Images/back_2.png');
+    height: 500px;
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
 
+}
+
+.back_2 .card_2{
+
+}
+
+.back_3{
+    background-image: url('../Images/back_1.png');
+    height: 500px;
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.top_bar{
+    display: flex;
+    position: absolute;
+    margin-left: 30%;
+    padding: 20px;
+    gap: 20px;
+    background-color: red;
+}
 
 /* deals and discount section styling ends here */
