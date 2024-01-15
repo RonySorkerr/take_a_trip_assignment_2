@@ -43,11 +43,19 @@
 
 body{
     font-family: 'Mulish', sans-serif;
+}
+
+main{
     width: 80%;
     margin: auto;
 }
 
 /* header styling section starts here */
+
+header{
+    width: 80%;
+    margin: auto;
+}
 .head{
     display: flex;
     align-items: center;
@@ -63,6 +71,7 @@ body{
 .logo .name{
     margin-left: 10px;
     font-weight: 900;
+    font-size: 25px;
 }
 
 .name span{
@@ -167,6 +176,8 @@ select{
 .contets{
     width: 45%;
     margin-right: 50px;
+    height: 550px;
+    overflow: hidden;
 }
 
 .contets h1{
@@ -181,6 +192,7 @@ select{
 
 .mountain img{
     width: 100%;
+    height: 550px;
 }
 
 
@@ -323,6 +335,7 @@ img{
 
 .d_head p{
     margin-top: 20px;
+    text-align: center;
 }
 
 .deals_discoun .back_1{
@@ -335,12 +348,15 @@ img{
     position: relative;
 }
 
-.back_1 .card_1{
-    background-color: wheat;
-    width: 60%;
-    padding: 20px;
+.card_1{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: var(--pf-weight);
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 40%;
+    padding: 50px;
     border-radius: 10px;
-    margin-left: 40%;
 }
 
 .back_2{
@@ -364,9 +380,22 @@ img{
     position: relative;
 }
 
- .top_bar{
+.top_bar p{
+    margin: 20px 0px;
+}
+
+.top_bar h2{
+    margin: 20px 0px;
+}
+
+.top_bar button{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+ .hedear{
     display: flex;
-    gap: 30px;;
 } 
 
 /* deals and discount section styling ends here */
@@ -381,6 +410,7 @@ img{
 
 .perfect_contex{
     width: 40%;
+    height: 420px;
 }
 
 .perfect_contex h1{
@@ -399,6 +429,11 @@ img{
     padding: 10px 30px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.video img{
+    height: 420px;
+    width: 100%;
 }
 /* a simple perfect place to get lost section ends here */
 
@@ -486,6 +521,8 @@ hr{
 
 /* footer section styling starts here */
 footer{
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
     margin: 80px 0;
     text-align: center;
 }
