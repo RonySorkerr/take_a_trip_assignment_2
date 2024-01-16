@@ -463,6 +463,10 @@ img{
     width: 50%;
 }
 
+.video iframe{
+    border-radius: 10px;
+}
+
 /* a simple perfect place to get lost section ends here */
 
  /* my own made section starts here  */
