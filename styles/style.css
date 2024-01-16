@@ -226,6 +226,20 @@ select{
     margin-top: 50px;
 }
 
+.fine_tune{
+    position: relative;
+}
+
+.mal_center{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .first_row img{
     width: 100%;
 }
