@@ -1,3 +1,4 @@
+/* phone responsive starts here */
 @media screen and (max-width:600px) {
     /* header section responsiveness starts here */
     header{
@@ -241,3 +242,5 @@
 
 
 }
+
+/* phone responsive ends here */

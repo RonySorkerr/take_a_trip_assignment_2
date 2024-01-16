@@ -161,6 +161,7 @@ select{
 
 .inputs button{
     margin-right: 30px;
+    margin-left: 30px;
     cursor: pointer;
 }
 
@@ -210,7 +211,7 @@ select{
 }
 
 .destination p{
-    width: 50%;
+    width: 70%;
     margin:30px auto;
 
 }
@@ -251,6 +252,8 @@ select{
     margin-top: 20px;
 
 }
+
+
 
 .second_row img{
     width: 100%;
@@ -311,7 +314,6 @@ select{
 
 .hotels img{
     width: 100px;
-
     border-radius: 5px;
 }
 
@@ -368,7 +370,7 @@ img{
     color: rgb(0, 0, 0);
     font-weight: var(--pf-weight);
     background-color: rgba(255, 255, 255, 0.774);
-    width: 40%;
+    width: 50%;
     height: 500px;
     padding: 50px;
     border-radius: 10px;
@@ -398,6 +400,10 @@ img{
     position: relative;
 }
 
+.top_bar{
+    font-size: smaller;
+}
+
 .top_bar p{
     font-weight: 300;
     margin: 20px 0px;
@@ -421,6 +427,14 @@ img{
     margin: 20px 0;
     gap: 20px;
 } 
+
+.all_pack_btn button{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
 
 /* deals and discount section styling ends here */
 
@@ -449,7 +463,8 @@ img{
 }
 
 .perfect_contex ul{
-    line-height: 45px;
+    line-height: 35px;
+    font-weight: 700;
 }
 
 .perfect_contex button{
@@ -596,8 +611,8 @@ hr{
 .newsletter_contex button{
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
     cursor: pointer;
+    font-weight: 900;
 }
 /* newsletter section ends here  */
 
@@ -622,7 +637,7 @@ footer p{
 }
 
 .linked_icons i{
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .rights{
