@@ -170,6 +170,7 @@ select{
 .popular{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 80px 0;
 }
 
@@ -178,6 +179,7 @@ select{
     margin-right: 50px;
     height: 550px;
     overflow-y: auto;
+    overflow-x:hidden;
 }
 
 .contets h1{
@@ -430,6 +432,7 @@ img{
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .perfect_contex{
@@ -456,10 +459,10 @@ img{
     cursor: pointer;
 }
 
-.video img{
-    height: 450px;
-    width: 100%;
+.video{
+    width: 50%;
 }
+
 /* a simple perfect place to get lost section ends here */
 
  /* my own made section starts here  */
