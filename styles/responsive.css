@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+    /* header section responsiveness starts here */
     header{
         width: 90%;
         margin: auto;
@@ -16,6 +17,10 @@
     .links ul{
         display: none;
     }   
+
+    /* header section responsiveness ends here */
+
+    /* banner section responsiveness styling starts here */
 
     .banner{
         height: 700px;
@@ -42,11 +47,18 @@
 
     .inputs button{
         width: 90%;
-        margin: auto;
+        margin: 20px auto;
     }
 
+    /* banner section responsiveness styling ends here */
+
+    /* popular section responsiveness styling starts here */
     .popular{
         flex-direction: column;
+    }
+
+    .contets p{
+        line-height: 40px;
     }
 
     .contets{
@@ -60,9 +72,16 @@
     .mountain img{
         height: auto;
     }
+    /* popular section responsiveness styling ends here */
+
+    /* choose your destination section responsiveness styling starts here */
+
     .destination h1{
         font-size: 20px;
         font-weight: 800;
+    }
+    .destination p{
+        width: 100%;
     }
     .first_row{
         grid-template-columns: repeat(1,1fr);
@@ -77,6 +96,12 @@
         grid-template-columns: repeat(1,1fr);
         height: auto;
     }
+    .third_row img{
+        height: auto;
+    }
+    /* choose your destination section responsiveness styling ends here */
+
+    /* why us section responsiveness styling starts here */
     .why_us h1{
         font-size: 20px;
         font-weight: 700;
@@ -87,12 +112,19 @@
     .price_gurantee{
         width: 100%;
     }
+
+    /* why us section responsiveness styling ends here */
+    /* deals & discount section responsiveness styling starts here */
     .d_head h1{
         font-size: 20px;
     }
     .card_1{
         display: none;
     }
+
+    /* deals & discount section responsiveness styling ends here */
+
+    /* a perfect place section responsiveness stylign starts here */
     .perfect_place{
         flex-direction: column;
     }
@@ -107,6 +139,10 @@
     .video img{
         height: auto;
     }
+
+    /* a perfect place section responsiveness stylign ends here */
+
+    /* meet our team section responsiveness styling starts here */
     #team{
         font-size: 20px;
     }
@@ -114,9 +150,14 @@
         grid-template-columns: repeat(1,1fr);
         row-gap: 30px;
     }
+
+    /* meet our team section responsiveness styling ends here */
+    
     .pack{
         font-size: 20px;
     }
+
+    /* newsletter section responsiveness styling starts here */
     .newsletterr{
         flex-direction: column;
     }
@@ -132,6 +173,10 @@
     .save h1{
         font-size: 20px;
     }
+
+    /* newsletter section responsiveness styling ends here */
+
+    /* footer section responsiveness styling starts here */
     footer .name h1{
         font-size: 20px;
     }
@@ -140,6 +185,8 @@
         margin: 0 6px;
     }
     
+    /* footer section responsiveness styling ends here */
+
 
 
 }
