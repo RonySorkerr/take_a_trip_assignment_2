@@ -1,3 +1,66 @@
+/* tablet responsive starts here*/
+@media screen and (max-width:992px) and (min-width:601px) {
+    .head{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 20px 0;
+    }
+    .inputs{
+        display: none;
+    }
+    .popular{
+        flex-direction: column-reverse;
+    }
+    .contets{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contets h1{
+        text-align: center;
+    }
+    .contets button{
+        display: flex;
+        margin:10px auto;
+    }
+    .destination p{
+        width: 90%;
+    }
+    .second_row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .services{
+        flex-direction: column-reverse;
+    }
+    .price_gurantee{
+        width: 100%;
+    }
+    .perfect_place{
+        flex-direction: column;
+    }
+    .perfect_contex{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .perfect_contex ul{
+        text-align: left;
+    }
+    .perfect_contex button{
+        display: flex;
+        margin: auto;
+    }
+    .video{
+        width: 100%;
+    }
+    .member_images{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* tablet responsive ends here*/
+
+
 /* phone responsive starts here */
 @media screen and (max-width:600px) {
     /* header section responsiveness starts here */
