@@ -61,10 +61,11 @@
     /* popular section responsiveness styling starts here */
     .popular{
         flex-direction: column;
+        
     }
 
     .contets p{
-        line-height: 40px;
+        line-height: 30px;
         text-align: justify;
     }
 
@@ -189,9 +190,18 @@
     }
     .newsletter_contex{
         width: 100%;
+        height: auto;
+    }
+    .newsletter_contex input{
+        margin: 20px auto;
+    }
+    .newsletter_contex button{
+        margin-top: 10px;
+        margin-bottom: 0;
     }
     .img{
         width: 100%;
+        height: auto;
     }
     .save h2{
         font-size: 15px;
