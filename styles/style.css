@@ -53,7 +53,7 @@ main{
 /* header styling section starts here */
 
 header{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .head{
@@ -429,6 +429,7 @@ img{
 .perfect_place{
     display: flex;
     gap: 30px;
+    margin: 80px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -448,7 +449,7 @@ img{
 }
 
 .perfect_contex ul{
-    line-height: 50px;
+    line-height: 45px;
 }
 
 .perfect_contex button{

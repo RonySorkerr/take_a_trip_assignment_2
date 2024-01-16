@@ -13,6 +13,7 @@
     }
     .bars{
         display: block;
+        cursor: pointer;
     }
     .links ul{
         display: none;
@@ -27,7 +28,7 @@
     }
     .banner_contents h1{
         font-size: 25px;
-        font-weight: 700;
+        font-weight: 900;
     }
 
     .banner_contents p{
@@ -61,7 +62,6 @@
     /* popular section responsiveness styling starts here */
     .popular{
         flex-direction: column;
-        
     }
 
     .contets p{
@@ -71,14 +71,16 @@
 
     .contets{
         width: 100%;
-        height: auto;
+        margin: auto;
     }
     .contets h1{
         font-size: 20px;
         font-weight: 900;
     }
     .mountain img{
+        width: 100%;
         height: auto;
+        margin-top: 30px;
     }
     /* popular section responsiveness styling ends here */
 
@@ -118,7 +120,7 @@
     /* why us section responsiveness styling starts here */
     .why_us h1{
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 900;
     }
     .why_us p{
         text-align: justify;
@@ -134,6 +136,7 @@
     /* deals & discount section responsiveness styling starts here */
     .d_head h1{
         font-size: 20px;
+        font-weight: 900;
     }
     .d_head p{
         text-align: justify;
@@ -150,6 +153,7 @@
     }
     .perfect_contex h1{
         font-size: 20px;
+        font-weight: 900;
     }
     .perfect_contex p{
         text-align: justify;
@@ -172,6 +176,7 @@
     /* meet our team section responsiveness styling starts here */
     #team{
         font-size: 20px;
+        font-weight: 900;
     }
     .member_images{
         grid-template-columns: repeat(1,1fr);
