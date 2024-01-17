@@ -35,6 +35,10 @@
     margin: 15px 0;
 }
 
+.tablet_hr{
+    display: none;
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -172,7 +176,7 @@ select{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 .contets{

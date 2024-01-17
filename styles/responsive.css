@@ -1,5 +1,9 @@
 /* tablet responsive starts here*/
 @media screen and (max-width:992px) and (min-width:601px) {
+    .tablet_hr{
+        display: block;
+        margin: 10px 0;
+    }
     .head{
         flex-direction: column;
     }
@@ -11,6 +15,7 @@
     }
     .popular{
         flex-direction: column;
+        margin-bottom: 40px;
     }
     .contets{
         width: 90%;
@@ -23,6 +28,9 @@
         display: flex;
         margin:20px auto;
         margin-bottom: 30px;
+    }
+    .destination{
+        margin-top: 30px;
     }
     .destination p{
         width: 90%;
