@@ -2,7 +2,8 @@
 @media screen and (max-width:992px) and (min-width:601px) {
     .tablet_hr{
         display: block;
-        margin: 10px 0;
+        width: 50%;
+        margin: auto;
         outline: 1px solid red;
         border: 0;
     }
@@ -11,6 +12,9 @@
     }
     .logo{
         margin: 20px 0;
+    }
+    .logo .name{
+        font-size: 30px;
     }
     .inputs{
         display: none;
