@@ -10,10 +10,10 @@
         display: none;
     }
     .popular{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .contets{
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
     }
     .contets h1{
@@ -21,7 +21,8 @@
     }
     .contets button{
         display: flex;
-        margin:10px auto;
+        margin:20px auto;
+        margin-bottom: 30px;
     }
     .destination p{
         width: 90%;
